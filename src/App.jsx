@@ -86,8 +86,8 @@ function App() {
           {todos.length ===0 && <div className='m-5'>No Todos to display !</div> }
           {todos.map(item=>{
  
-          return (showFinished || !item.isCompleted) && <div key={item.id} className={"todo flex md:w-1/2 my-3 justify-between"}>
-            <div className='flex gap-10'> 
+          return (showFinished || !item.isCompleted) && <div key={item.id} className={"todo flex md:w-1 my-3 justify-between"}>
+            <div className='flex gap-5'> 
             <input name={item.id} onChange={handleCheckbox} type="checkbox" checked={item.isCompleted} id="" />
             <div className={item.isCompleted?"line-through":""}>{item.todo}</div>
             </div>
