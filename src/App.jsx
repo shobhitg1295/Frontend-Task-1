@@ -77,7 +77,7 @@ function App() {
         <h1 className='font-bold text-center text-xl'>My Check List - Manage your tasks at one place</h1>
          <div className="addTodo my-5 flex flex-col gap-4">
           <h2 className='text-lg font-bold text-center'>Add a Todo Task:</h2>
-          <input  onChange={handleChange} value={todo} type="text" className='w-full rounded-full px-5 py-1' />
+          <input  onChange={handleChange} value={todo} type="text" className='w-full rounded-full text-black px-5 py-1' />
           <button onClick={handleAdd} disabled={todo.length<=3} className='bg-blue-500 hover:bg-blue-900 disabled:bg-blue-300 p-2 py-1 text-sm font-bold text-black rounded-md'>ADD</button>
          </div>
          <input className='my-4' onChange={toggleFinished} type="checkbox" checked={showFinished} /> Show Finished
