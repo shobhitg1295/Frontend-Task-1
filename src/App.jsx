@@ -73,7 +73,7 @@ function App() {
   return (
     < >
     <Navbar/> 
-       <div className="mx-3 md:container md:mx-auto my-5 rounded-xl p-5 bg-gray-700 min-h-[80vh] md:w-1/2">
+       <div className="mx-3 md:container md:mx-auto my-5 rounded-xl p-5 bg-gray-700 text-white min-h-[80vh] md:w-1/2">
         <h1 className='font-bold text-center text-xl'>My Check List - Manage your tasks at one place</h1>
          <div className="addTodo my-5 flex flex-col gap-4">
           <h2 className='text-lg font-bold text-center'>Add a Todo</h2>
